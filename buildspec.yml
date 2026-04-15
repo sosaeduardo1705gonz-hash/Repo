@@ -9,6 +9,7 @@ phases:
       - echo "Compilando página estática..."
 artifacts:
   files:
-    - pagina/*
-
+    - index.html
+    - style.css
+    - img/*
 
