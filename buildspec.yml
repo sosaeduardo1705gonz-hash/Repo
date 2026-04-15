@@ -1,10 +1,12 @@
 version: 0.2
 
 phases:
-  install: 
+  install:
     commands:
-      - echo "installing..."
+      - echo "Instalando dependencias..."
   build:
     commands:
-      - cd pagina
-      - docker build -t flask-app .
+      - echo "Compilando página estática..."
+artifacts:
+  files:
+    - pagina/*
