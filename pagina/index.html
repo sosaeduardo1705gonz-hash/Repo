@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Tecmilenio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Tecmilenio_logo.png" alt="Logo Tecmilenio">
+  <h1>Jose</h1>
+  <p>Correo: jose@example.com</p>
+  <button onclick="mostrarInfo()">Mostrar Información</button>
+  <div id="info" style="display:none;">
+    <p>Matrícula: A01234567</p>
+    <img src="mi_foto.jpg" alt="Mi Foto" width="150">
+  </div>
+  <script>
+    function mostrarInfo() {
+      document.getElementById("info").style.display = "block";
+    }
+  </script>
+</body>
+</html>
+
